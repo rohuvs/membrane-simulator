@@ -1,1 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    background-color: #0b0f14;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.main-screen {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.title-area h1 {
+    font-size: 64px;
+    letter-spacing: 12px;
+    margin-bottom: 12px;
+}
+
+.title-area p {
+    font-size: 16px;
+    color: #9da7b3;
+    letter-spacing: 2px;
+}
+
+.cell-icon {
+    font-size: 80px;
+    margin: 55px 0;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.menu button {
+    width: 260px;
+    padding: 15px;
+
+    background-color: transparent;
+    color: white;
+
+    border: 1px solid #5c6875;
+    border-radius: 6px;
+
+    font-size: 15px;
+    letter-spacing: 3px;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.menu button:hover {
+    background-color: white;
+    color: #0b0f14;
+}
