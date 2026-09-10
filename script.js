@@ -6,7 +6,10 @@ const labButton = document.getElementById("lab-button");
 const aboutButton = document.getElementById("about-button");
 
 const backButton = document.getElementById("back-button");
+const simulationButton = document.getElementById("simulation-button");
 
+const molecule = document.getElementById("molecule");
+const moleculeLocation = document.getElementById("molecule-location");
 
 /* =========================
    OPEN LAB
