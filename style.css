@@ -327,3 +327,38 @@ body {
 .info-box strong {
     color: white;
 }
+/* =========================
+   SIMULATION BUTTON
+========================= */
+
+#simulation-button {
+    width: 100%;
+
+    margin-top: 25px;
+
+    padding: 14px;
+
+    background-color: transparent;
+
+    color: white;
+
+    border: 1px solid #5c6875;
+    border-radius: 5px;
+
+    font-size: 12px;
+    letter-spacing: 2px;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+#simulation-button:hover {
+    background-color: white;
+    color: #0b0f14;
+}
+
+#simulation-button:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
